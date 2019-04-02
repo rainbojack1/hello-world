@@ -11,3 +11,5 @@ The files needed in a project are:
   3) styles folder: This folder will contain the CSS code used to style your content (for example, setting text and background colors). Create a folder called styles, inside your test-site folder.
   
   4) scripts folder: This folder will contain all the JavaScript code used to add interactive functionality to your site (e.g. buttons that load data when clicked). Create a folder called scripts, inside your test-site folder.
+
+I am currently using AngularJS but will be updating to Angular 7 once I download all of the requirements on my home comupter
