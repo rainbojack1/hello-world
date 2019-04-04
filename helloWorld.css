@@ -1,0 +1,9 @@
+body{
+    padding: 1px;
+}
+
+#greeting{
+    color: green;
+    text-shadow: 1px 2px 2px #1C6EA4;
+    font-size: 30px;
+}

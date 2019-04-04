@@ -3,8 +3,10 @@
     <head>
             <meta charset="UTF-8">
             <title>Hello World</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+            <link rel = "stylesheet" type = "text/css" href = "helloWorld.css" />
     </head>
-    <body>
+    <body ng-app>
         <h1>Hello World</h1>
         <p>This is a customary first project for any type of coding.</p>
 
@@ -13,5 +15,23 @@
 
         <h3>Bonjour le Monde</h3>
         <p>And this one is in French. </p>
+        
+        <hr/>
+        
+        <h1>Simple App</h1>
+        
+        <h3>Choose a language:</h3>
+        
+        <input type="radio" name="language" id="lan1" value="english">English<br/>
+        <input type="radio" name="language" id="lan2" value="spanish">Spanish<br/>
+        <input type="radio" name="language" id="lan3" value="french">French<br/>
+        <br/>
+        <button type="button" onclick="translateBtn()">Translate!</button>
+        <br/><br/>
+        <div id="greeting"></div>
+        <h2></h2>
+        <script type="text/javascript" src="helloWorld.js">
+            
+        </script>
     </body>
 </html>
