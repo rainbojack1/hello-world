@@ -1,9 +1,45 @@
 body{
-    padding: 1px;
+    padding: 5px;
+    margin: 5px;
+    border: double;
+}
+
+header{
+    background: url(https://media.giphy.com/media/9hD0Hg4zQcTf2/giphy.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: max-content;
+    
+}
+
+header h1{
+    font-size: 35px;
+    color: #609f9f;
+    text-shadow: 2px 2px 2px #f8f8ff;
+    text-align: center;
+    padding-top: 150px;
+}
+
+header p{
+    text-shadow: 2px 2px 2px #f8f8ff;
+    text-align: center;
+    font-style: italic;
+    padding-top: 100px;
+    font-size: 25px;
 }
 
 #greeting{
     color: green;
     text-shadow: 1px 2px 2px #1C6EA4;
     font-size: 30px;
+}
+
+.padding-medium{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.center{
+    text-align: center;
 }
